@@ -1,0 +1,13 @@
+version: '3'
+services:
+  api:
+    build: .
+    env_file:
+      - .env
+    volumes:
+      - .:/app
+      - ./assets:/app/assets
+      - ./media:/app/media
+    depends_on:
+      - postgres
+      - redis
