@@ -57,7 +57,7 @@ It's possible to also run the project without Docker.
 ## Local Setup (Alternative to Docker)
 
 1. [Postgresql](https://www.postgresql.org/download/)
-2. [Python](https://www.python.org/downloads/release/python-365/)
+2. [Python](https://www.python.org/downloads/release/python-382/)
 
 ### Installation
 
